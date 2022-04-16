@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Arial_Rounded_MT_Bold;
+  src: url(Fonts/ARIAL_ROUNDED_BOLD.TTF);
+}
+
+@font-face {
+  font-family: Arial_Rounded_MT;
+  src: url(Fonts/ARIAL_ROUNDED_MT.TTF);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* NAVBAR STYLING */
+a.nav-link{
+  font-family: Arial_Rounded_MT_Bold;
+  color:white !important;
+  font-size: 1.2vw;
+}
+
+.active a.nav-link p{
+  color: #200660;
+  border: 2px solid #EFCA48;
+  background-color: #EFCA48;
+}
+.nav-link:hover{
+  color:#EFCA48 !important;
+}
+#navlogo{
+  height:90px;
+}
+
+@media (max-width:992px) {
+  .active a.nav-link p{
+    color: #EFCA48;
+    border: none;
+    background: none;
+  }
+  .navbar-toggler-icon{
+    height:35px;
+  }
+  .navbar-toggler{
+    font-size: 2rem !important;
+  }
+  #navlogo{
+    height:70px;
+  }
+}
+
+#mobNavBarToggle{
+  cursor: pointer;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler {
+  border-color: rgb(255,255,255,0) !important;
+}
+/* NAVBAR STYLING */
+
+
+#LandingCover{
+  background-image: url('../img/cover_image_2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  height: 100vh;
+  /* max-width: 1440px;
+  margin: auto; */
+}
+
+.landingText{
+  font-family: 'Roboto', sans-serif;
+  /* font-size: 3.75vw; */
+  font-size: 55px;
+  font-weight: 100;
+}
+.landingText b{
+  font-weight: 700;
+}
+
+.landingTextSmall{
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.landingButton{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #EFCA48;
+  background-color: #EFCA48;
+}
+
+@media (max-width:992px) {
+  .landingText{
+    font-size: 45px;
+  }
+  .landingButton{
+    font-size: 14px;
+  }
+}
+
+@media (max-width:768px) {
+  #LandingCover{
+    background-size: cover;
+  }
+  .landingText{
+    font-size: 5.3vw;
+  }
+  .landingTextSmall{
+    font-size: 2.5vw;
+  }
+  .landingButton{
+    font-size: 2vw;
+  }
+}
