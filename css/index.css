@@ -229,14 +229,60 @@ a.nav-link{
 }
 
 /* Get Connected Styling */
-
-#GetConnected{
-  height: 800px;
-}
-
 .connectImg{
   width: 100%;
   /* max-width: 1024px; */
   /* width: 80vw; */
   /* height: 80vh; */
+}
+
+.form-control{
+  background-color: #200660;
+  color: white;
+}
+
+.form-control:focus {
+  background-color: #200660;
+  color: white;
+  border-color: #28a745;
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+ }
+ label{
+   color: #200660;
+   background-color: #EFCA48;
+   border-radius: 10px;
+   padding: 5px 10px;
+ }
+
+ /* Footer Styling */
+ #Footer{
+   /* height: 500px; */
+   background-color:#13153E;
+   color: white;
+ }
+ .FooterRow{
+   text-align: center !important;
+ }
+.FooterHeaders{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: center !important;
+}
+.stepsText{
+  font-size: 18px;
+  text-align: center;
 }
