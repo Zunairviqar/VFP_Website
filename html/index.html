@@ -9,6 +9,7 @@
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <link rel = "stylesheet" type = "text/css" href = "../css/index.css"/>
 
@@ -30,7 +31,7 @@
               </button>
 
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-5">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 pr-5 pl-3 pl-md-0 ">
                   <li class="nav-item active px-1">
                     <a class="nav-link" href=""><p class = "px-2 py-0 my-0">About</p> <span class="sr-only">(current)</span></a>
                   </li>
@@ -73,7 +74,7 @@
 
           <div class = "row pt-2">
             <div class="col-10 col-lg-6">
-              <div class = "landingTextSmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+              <div class = "landingTextSmall">Venture for Pakistan is a venture platform to help cultivate early career talent and build Pakistan’s tech ecosystem from the ground up.</div>
             </div>
           </div>
 
@@ -84,6 +85,18 @@
               </div>
             </div>
           </div>
+
+          <section id="glowingArrow">
+            <div class = "row pt-5">
+              <div class="col-12 pt-5 text-center">
+                <div>
+                  <a class="pt-5">
+                      <i class="pt-5 scrollArrow fa-solid fa-chevron-down"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+        </section>
 
         </div>
       </section>
@@ -150,7 +163,7 @@
           </div>
         </div>
 
-        <div class = "row pt-5 px-5">
+        <div class = "row pt-5 px-md-5">
           <div class="col-12 d-flex justify-content-center px-5">
             <div class="stepsText2">
               Fellows are offered a unique opportunity to unlock their entrepreneurial mindset and gain hands-on experiential learning by working at an early-stage venture with a fast-paced and high growth environment. Fellows are provided the path to accelerate their careers as we help align their academic goals with their professional aspirations - curated curriculum delivered by industry professionals focused on meeting employer needs through in-demand skills for tech careers
@@ -161,7 +174,6 @@
       </div>
 
     </section>
-
 
     <section id="WeOffer">
 
@@ -175,173 +187,148 @@
           </div>
         </div>
 
-        <div class="row pt-2">
+        <section id="smallCarousel">
+          <div class="row pt-2">
+              <div class="col-12">
+                  <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
 
-          <div class = "col-lg-6 px-5 pt-5">
-            <div class = "row d-flex justify-content-center">
-              <img class = "offerImg" src = "../img/people.png" />
-            </div>
-            <div class= "row d-flex justify-content-center pt-4 px-5">
-              <div class="offerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            </div>
-            <div class = "row d-flex justify-content-center pt-5 px-5">
-              <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
-            </div>
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row">
+
+                              <div class = "col-lg-6 px-5 pt-5">
+                                <div class = "row d-flex justify-content-center rocket">
+                                  <img class = "offerImg " src = "../img/thinktank.svg" />
+                                </div>
+                                <div class = "row d-flex justify-content-center pt-3">
+                                  <div class="offerHeading">VFP THINKTANK</div>
+                                </div>
+                                <div class= "row d-flex justify-content-center pt-2 px-5">
+                                  <div class="offerText">Introductions to multidisciplinary roles such as Product Management, User Experience Design, Data Science, Business Development with masterclasses from young industry professionals in the industry and keynotes from industry executives.</div>
+                                </div>
+                                <!-- <div class = "row d-flex justify-content-center pt-5 px-5">
+                                  <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
+                                </div> -->
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row">
+
+                              <div class = "col-lg-6 px-5 pt-5">
+                                <div class = "row d-flex justify-content-center">
+                                  <img class = "offerImg" src = "../img/bootcamp.svg" />
+                                </div>
+                                <div class = "row d-flex justify-content-center pt-3">
+                                  <div class="offerHeading">VFP STARTUP SUCCESS BOOTCAMP</div>
+                                </div>
+                                <div class= "row d-flex justify-content-center pt-2 px-5">
+                                  <div class="offerText">Demystifying startups, its fundamentals, tools for success and guiding principles to solve critical business challenges</div>
+                                </div>
+                                <!-- <div class = "row d-flex justify-content-center pt-5 px-5">
+                                  <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
+                                </div> -->
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="row">
+
+                                <div class = "col-lg-6 px-5 pt-5">
+                                  <div class = "row d-flex justify-content-center">
+                                    <img class = "offerImg" src = "../img/accelerator.svg" />
+                                  </div>
+                                  <div class = "row d-flex justify-content-center pt-3 px-5">
+                                    <div class="offerHeading">VFP CAREER ACCELERATOR</div>
+                                  </div>
+                                  <div class= "row d-flex justify-content-center pt-2 px-5">
+                                    <div class="offerText">One-on-One personal coaching and mentorship from professionals at top tech companies such as Google, Facebook, Uber, Amazon, Square, Doordash etc.</div>
+                                  </div>
+                                  <!-- <div class = "row d-flex justify-content-center pt-5 px-5">
+                                    <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
+                                  </div> -->
+                                </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
 
-          <div class = "col-lg-6 px-5 pt-5 ">
-            <div class = "row d-flex justify-content-center">
-              <img class = "offerImg" src = "../img/people.png" />
-            </div>
-            <div class = "row d-flex justify-content-center pt-4 px-5">
-              <div class="offerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            </div>
-            <div class = "row d-flex justify-content-center pt-5 px-5">
-              <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
+          <div class = "row pt-5 align-items-center">
+            <div class="col-12 text-center">
+                <a class="btn mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <i class="carArrow fa-solid fa-chevron-left"></i>
+                </a>
+                <a class="btn mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <i class="carArrow fa-solid fa-chevron-right"></i>
+                </a>
             </div>
           </div>
+        </section>
 
-        </div>
+        <section id="largeNoCarousel">
+          <div class="row pt-2 d-flex align-items-center">
+
+              <div class="col-4">
+
+                <div class = "row d-flex justify-content-center">
+                  <img class = "offerImg" src = "../img/bootcamp.svg" />
+                </div>
+                <div class = "row d-flex justify-content-center pt-3">
+                  <div class="offerHeading">VFP STARTUP SUCCESS BOOTCAMP</div>
+                </div>
+                <div class= "row d-flex justify-content-center pt-2 px-5">
+                  <div class="offerText">Demystifying startups, its fundamentals, tools for success and guiding principles to solve critical business challenges</div>
+                </div>
+                <!-- <div class = "row d-flex justify-content-center pt-5 px-5">
+                  <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
+                </div> -->
+
+              </div>
+
+              <div class="col-4">
+
+                <div class = "row d-flex justify-content-center rocket">
+                  <img class = "offerImg" src = "../img/thinktank.svg" />
+                </div>
+                <div class = "row d-flex justify-content-center pt-3">
+                  <div class="offerHeading">VFP THINKTANK</div>
+                </div>
+                <div class= "row d-flex justify-content-center pt-2 px-5">
+                  <div class="offerText">Introductions to multidisciplinary roles such as Product Management, User Experience Design, Data Science, Business Development with masterclasses from young industry professionals in the industry and keynotes from industry executives.</div>
+                </div>
+                <!-- <div class = "row d-flex justify-content-center pt-5 px-5">
+                  <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
+                </div> -->
+
+              </div>
+
+              <div class="col-4">
+
+                  <div class = "row d-flex justify-content-center">
+                    <img class = "offerImg" src = "../img/accelerator.svg" />
+                  </div>
+                  <div class = "row d-flex justify-content-center pt-3 px-5">
+                    <div class="offerHeading">VFP CAREER ACCELERATOR</div>
+                  </div>
+                  <div class= "row d-flex justify-content-center pt-2 px-5">
+                    <div class="offerText">One-on-One personal coaching and mentorship from professionals at top tech companies such as Google, Facebook, Uber, Amazon, Square, Doordash etc.</div>
+                  </div>
+                  <!-- <div class = "row d-flex justify-content-center pt-5 px-5">
+                    <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
+                  </div> -->
+
+              </div>
+          </div>
+      </section>
 
       </div>
 
     </section>
-
-    <!-- <section class="pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-6">
-                    <h3 class="mb-3">Carousel cards title </h3>
-                </div>
-                <div class="col-6 text-right">
-                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-                        <i class="fa fa-arrow-left"></i>
-                    </a>
-                    <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                        <i class="fa fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="col-12">
-                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
 
     <section id="CommunitySays">
 
@@ -355,33 +342,218 @@
           </div>
         </div>
 
-        <div class="row pt-2">
+        <section id="smallCarousel2">
+          <div class="row pt-2">
+              <div class="col-12">
+                  <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
 
-          <div class = "col-lg-6 px-5 pt-5">
-            <div class = "row d-flex justify-content-center">
-              <img class = "offerImg" src = "../img/people.png" />
-            </div>
-            <div class= "row d-flex justify-content-center pt-4 px-5">
-              <div class="offerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            </div>
-            <div class = "row d-flex justify-content-center pt-5 px-5">
-              <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
-            </div>
+                      <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="row px-3">
+
+                              <div class = "col-lg-4 pt-5 px-5">
+                                <div class="card pb-5" style="width: 100%; height: 100%; background-color: #FAFAFA; border-radius:10%;">
+
+                                  <div class = "row pt-2 px-2">
+
+                                    <div class = "col-5">
+                                      <img class = "communityimg px-2 py-2" src = "../img/soophia.jpeg" />
+                                    </div>
+
+                                    <div class = "col pt-4 pt-md-5">
+                                      <div class = "row commName">
+                                          <b>Soophia Khan</b>
+                                      </div>
+                                      <div class = "row commInfo pr-5">
+                                          Investor @ GFC
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="row commInfo pt-3 px-5 text-center">
+                                    Hi, this is Soophia! I cover startup investments in Pakistan as well as the broader APAC region for the Global Founders' Capital. Since the beginning of my career, I was introduced to awesome startups and founders locally and globally through Venture for Pakistan and re-aliased the myriad of opportunities present in the local market. VFP also bridged the large gap between mentors and mentees for young professionals like myself and that served as a big stepping stone in my professional growth.
+                                  </div>
+
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <div class="row px-3">
+
+                              <div class = "col-lg-4 pt-5 px-5">
+                                <div class="card pb-5" style="width: 100%; height: 100%; background-color: #FAFAFA; border-radius:10%;">
+
+                                  <div class = "row pt-2 px-2">
+
+                                    <div class = "col-5">
+                                      <img class = "communityimg px-2 py-2" src = "../img/wajiha.jpeg" />
+                                    </div>
+
+                                    <div class = "col pt-4 pt-md-5">
+                                      <div class = "row commName">
+                                          <b>WAJIHA MAJID</b>
+                                      </div>
+                                      <div class = "row commInfo pr-5">
+                                          Assistant Marketing Manager @ Abhi
+                                      </div>
+                                    </div>
+
+                                  </div>
+
+                                  <div class="row commInfo pt-3 px-5 text-center">
+                                    I was the part of VFP's S21 cohort and got placed at Abhi as a growth and strategy intern after which I moved on to secure a part-time position in the company. Getting into VFP has been a life changing experience (quite literally speaking 😅). Through it's flagship program, I got to meet some really amazing people and had a chance to meet and interact with the founders of leading startups like Bykea & Bazaar. I believe every undergrad should apply to VFP if they wish to kickstart their career in the Pakistani9 startup0 ecosystem.
+                                  </div>
+
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                              <div class="row px-3">
+
+                                <div class = "col-lg-4 pt-5 px-5">
+                                  <div class="card pb-5" style="width:100%; height: 100%; background-color: #FAFAFA; border-radius:10%;">
+
+                                    <div class = "row pt-2 px-2">
+
+                                      <div class = "col-5">
+                                        <img class = "communityimg pl-2 py-2" src = "../img/abubakr.jpeg" />
+                                      </div>
+
+                                      <div class = "col pt-4 pt-md-5">
+                                        <div class = "row commName">
+                                            <b>Muhammad AbuBakr</b>
+                                        </div>
+                                        <div class = "row commInfo pr-5">
+                                            Eng. Big Data Platfrom & Analytics @ Bazaar
+                                        </div>
+                                      </div>
+
+                                    </div>
+
+                                    <div class="row commInfo pt-2 px-5 text-center">
+                                      Seldom has anything impacted me to possibly say that my life has been changed for the better. But here I am asserting the fact that being part of the VFP fellowship has captured me to greater heights. VFP has not only given me the direction but clarity in terms of what I want for myself. It has introduced me to Pakistan's start-up landscape and helped me connect and build long lasting relationships with exceptionally talented people and has opened exciting new doors for me. I feel lightyears ahead from the person I was before I became a part of the VFP Fellowship.
+                                    </div>
+
+                                  </div>
+                                </div>
+
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
 
-          <div class = "col-lg-6 px-5 pt-5 ">
-            <div class = "row d-flex justify-content-center">
-              <img class = "offerImg" src = "../img/people.png" />
-            </div>
-            <div class = "row d-flex justify-content-center pt-4 px-5">
-              <div class="offerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-            </div>
-            <div class = "row d-flex justify-content-center pt-5 px-5">
-              <button class="LearnButton px-4 py-2" type="submit">Learn More</button>
+          <div class = "row pt-5 align-items-center">
+            <div class="col-12 text-center">
+                <a class="btn mb-3 mr-1" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                    <i class="carArrow fa-solid fa-chevron-left"></i>
+                </a>
+                <a class="btn mb-3 " href="#carouselExampleIndicators3" role="button" data-slide="next">
+                    <i class="carArrow fa-solid fa-chevron-right"></i>
+                </a>
             </div>
           </div>
+        </section>
 
-        </div>
+
+        <section id = "largeNoCarousel2">
+
+          <div class="row pt-2 pb-5">
+
+            <div class = "col-lg-4 pt-5 ">
+              <div class="card pb-5" style="width: 100%; height: 100%; background-color: #FAFAFA; border-radius:10%;">
+
+                <div class = "row pt-2 px-2">
+
+                  <div class = "col-5">
+                    <img class = "communityimg px-2 py-2" src = "../img/wajiha.jpeg" />
+                  </div>
+
+                  <div class = "col pt-3">
+                    <div class = "row commName">
+                        <b>WAJIHA MAJID</b>
+                    </div>
+                    <div class = "row commInfo pr-5">
+                        Assistant Marketing Manager @ Abhi
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row commInfo pt-3 px-5 text-center">
+                  I was the part of VFP's S21 cohort and got placed at Abhi as a growth and strategy intern after which I moved on to secure a part-time position in the company. Getting into VFP has been a life changing experience (quite literally speaking 😅). Through it's flagship program, I got to meet some really amazing people and had a chance to meet and interact with the founders of leading startups like Bykea & Bazaar. I believe every undergrad should apply to VFP if they wish to kickstart their career in the Pakistani9 startup0 ecosystem.
+                </div>
+
+              </div>
+            </div>
+
+            <div class = "col-lg-4 pt-5 ">
+              <div class="card pb-5" style="width: 100%; height: 100%; background-color: #FAFAFA; border-radius:10%;">
+
+                <div class = "row pt-2 px-2">
+
+                  <div class = "col-5">
+                    <img class = "communityimg px-2 py-2" src = "../img/soophia.jpeg" />
+                  </div>
+
+                  <div class = "col pt-3">
+                    <div class = "row commName">
+                        <b>Soophia Khan</b>
+                    </div>
+                    <div class = "row commInfo pr-5">
+                        Investor @ GFC
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row commInfo pt-3 px-5 text-center">
+                  Hi, this is Soophia! I cover startup investments in Pakistan as well as the broader APAC region for the Global Founders' Capital. Since the beginning of my career, I was introduced to awesome startups and founders locally and globally through Venture for Pakistan and re-aliased the myriad of opportunities present in the local market. VFP also bridged the large gap between mentors and mentees for young professionals like myself and that served as a big stepping stone in my professional growth.
+                </div>
+
+              </div>
+            </div>
+
+            <div class = "col-lg-4 pt-5 ">
+              <div class="card pb-5" style="width:100%; height: 100%; background-color: #FAFAFA; border-radius:10%;">
+
+                <div class = "row pt-2 px-2">
+
+                  <div class = "col-5">
+                    <img class = "communityimg pl-2 py-2" src = "../img/abubakr.jpeg" />
+                  </div>
+
+                  <div class = "col pt-3">
+                    <div class = "row commName">
+                        <b>Muhammad AbuBakr</b>
+                    </div>
+                    <div class = "row commInfo pr-5">
+                        Eng. Big Data Platfrom & Analytics @ Bazaar
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="row commInfo pt-2 px-5 text-center">
+                  Seldom has anything impacted me to possibly say that my life has been changed for the better. But here I am asserting the fact that being part of the VFP fellowship has captured me to greater heights. VFP has not only given me the direction but clarity in terms of what I want for myself. It has introduced me to Pakistan's start-up landscape and helped me connect and build long lasting relationships with exceptionally talented people and has opened exciting new doors for me. I feel lightyears ahead from the person I was before I became a part of the VFP Fellowship.
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+        </section>
+
+
+
 
       </div>
 
@@ -400,15 +572,19 @@
         </div>
 
         <div class = "row pt-3 px-2">
-          <div class="col-12 d-flex justify-content-center px-5">
+          <div class="col-12 d-flex justify-content-center px-md-5">
             <div class="stepsText2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.            </div>
+              Venture For Pakistan is a Summer Fellowship for University Students who want to become the founders of tomorrow and help build Pakistan’s tech ecosystem from the ground up. Venture for Pakistan recruits top undergraduate students, puts them through rigorous training supplemented with a robust industry-focused curriculum and matches them with hands-on internship opportunities at startups.
+‍                <br>
+                <br>
+              Fellows will then receive 1:1 coaching and mentorship from industry professionals at top technology companies such as Google, Facebook, Amazon, Uber etc. This experience consists of direct coaching of how to break into tech,  its various career paths and the art of packaging work experiences on to resumes and in interviews.</div>
           </div>
         </div>
 
-        <div class="row pt-5">
-          <div class="col-12 d-flex justify-content-center px-5">
-            <img class = "aboutImg" src = "../img/about.jpg" />
+        <div class="row pt-md-5 pt-n5">
+          <div class="col-12 d-flex justify-content-center">
+            <!-- <img class = "aboutImg" src = "../img/about.jpg" /> -->
+            <iframe class = "" title="vimeo-player" src="https://player.vimeo.com/video/432487130?h=836850cd48" width="960" height="540" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
 
@@ -429,9 +605,9 @@
         </div>
 
         <div class = "row pt-3 px-2">
-          <div class="col-12 d-flex justify-content-center px-5">
+          <div class="col-12 d-flex justify-content-center px-md-5">
             <div class="stepsText2">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.            </div>
+              We hunt for Pakistan's most promising startups with great leaders and teams who will give our Felllows the experience of a liftime. The partners help us cultivate early career talent to help build Pakistan's tech ecosystem from the ground up.</div>
           </div>
         </div>
 
@@ -525,13 +701,22 @@
 
         <div class = "row pt-4">
 
-          <div class="col-md-8 FiveStepText d-flex justify-content-center justify-content-md-start">
-            <div>
+          <div class="col-md-7 ">
+            <div class = "row FiveStepText d-flex justify-content-center justify-content-md-start">
               What's The Next Step?
+            </div>
+            <div class = "row pt-2 pr-md-5 px-5 px-md-0 footerTextSmall ">
+                Our applications open in April every year. If it is the right time, go ahead and apply!
+            </div>
+
+            <div class = "row pt-4 pb-4 pb-md-0 d-flex justify-content-center justify-content-md-start">
+                <div>
+                  <button class="footerButton px-4 py-2" type="submit">JOIN OUR COMMUNITY</button>
+                </div>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="offset-md-1 col-md-4">
             <div class = "row ">
               <div class = "col FooterRow">
                 <div class = "row pt-3 FooterHeaders d-flex justify-content-center">
@@ -590,6 +775,31 @@
             </div>
           </div>
 
+        </div>
+
+        <div class="row pt-5">
+          <div class = "col-9" style = "text-align: left;">
+            <a class="navbar-brand " href="https://www.venturepakistan.co/">
+              <img id = "navlogo" src = "../img/white_logo_2.png" />
+            </a>
+          </div>
+        </div>
+
+        <div class = "row mt-n2">
+          <div class = "col" style = "text-align: right;">
+            <div class="row">
+
+              <div class="offset-md-6 col-md-6">
+                <i class = "email mr-4 px-2 py-1"> partnerships@ventureforpakistan.co</i>
+                <i class="footerIcon fa-brands fa-linkedin"></i>
+                <i class="footerIcon fa-brands fa-instagram-square"></i>
+                <i class="footerIcon fa-brands fa-facebook"></i>
+              </div>
+            </div>
+            <!-- <a class="navbar-brand " href="https://www.venturepakistan.co/">
+              <img id = "navlogo" src = "../img/white_logo_2.png" />
+            </a> -->
+          </div>
         </div>
 
       </div>

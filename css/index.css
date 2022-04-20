@@ -3,13 +3,14 @@
 body{
   max-width: 1920px;
   margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* NAVBAR STYLING */
 a.nav-link{
   font-family: 'Roboto', sans-serif;
   color:white !important;
-  font-size: 1.2vw;
+  /* font-size: 1.2vw; */
 }
 
 .active a.nav-link p{
@@ -74,7 +75,7 @@ a.nav-link{
 
 .landingTextSmall{
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 300;
 }
 
@@ -100,13 +101,37 @@ a.nav-link{
     background-size: cover;
   }
   .landingText{
-    font-size: 5.3vw;
+    font-size: 5.4vw;
   }
   .landingTextSmall{
-    font-size: 2.5vw;
+    font-size: 14px;
   }
   .landingButton{
     font-size: 2vw;
+  }
+}
+
+.scrollArrow{
+  color: white;
+  font-size: 35px;
+  opacity: 0.7;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #000, 0 0 40px #fff, 0 0 50px #fff, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000, 0 0 50px #fff, 0 0 60px #fff, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+@media only screen and (min-width: 762px) {
+  #glowingArrow{
+    display: none;
   }
 }
 /* LANDING STYLING */
@@ -145,11 +170,11 @@ a.nav-link{
   .stepsText{
     width: 35%;
     padding-bottom: 10px;
-    font-size: 2.5vw;
+    /* font-size: 15px; */
   }
   .stepsText2{
     padding-bottom: 10px;
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
   }
 }
 
@@ -167,14 +192,26 @@ a.nav-link{
 } */
 
 .offerImg{
-  width: 80%;
+      max-height: 80%;
+      max-width: 60%;
+}
+.offerHeading{
+  font-weight: 700;
+  font-size: 24px;
+  color: #EFCA48;
+  text-align: center;
 }
 .offerText{
   text-align: center !important;
   font-size: 15px;
 }
 
-@media (max-width:992px) {
+.rocket img{
+  width: 30%;
+  text-align: center;
+}
+
+@media (max-width:768px) {
   .offerImg{
     width: 55%;
     height: 55%;
@@ -182,7 +219,7 @@ a.nav-link{
   .offerText{
     /* width: 35%; */
     padding-bottom: 10px;
-    font-size: 2.5vw;
+    /* font-size: 2.5vw; */
   }
 }
 
@@ -202,19 +239,71 @@ a.nav-link{
   }
 }
 
+.carArrow{
+  font-size: 25px;
+  font-weight: 900;
+}
+#smallCarousel .carousel-inner{
+  min-height: 55vh;
+}
+@media only screen and (max-width: 992px) {
+  #largeNoCarousel{
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #smallCarousel{
+    display: none;
+  }
+  .rocket img{
+    width: 40%;
+    text-align: center;
+  }
+}
+
 /* What the Community Says Styling */
-/* #CommunitySays{
-  height: 800px;
-} */
+#CommunitySays{
+  /* background-image: url('../img/ladder.jpg'); */
+  background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.9)), url("../img/ladder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.communityimg{
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.commName{
+  font-weight: 400;
+  font-size: 20px;
+}
+.commInfo{
+  font-weight: 400;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 992px) {
+  #largeNoCarousel2{
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #smallCarousel2{
+    display: none;
+  }
+}
+
 
 /* About Us Styling */
 
-.aboutImg{
-  max-width: 1024px;
-  width: 80vw;
-  /* height: 80vh; */
+@media (max-width:762px) {
+  iframe{
+    height: 300px;
+  }
 }
-
 /* Our Partners Styling */
 .partnersImg{
   width: 100%;
@@ -282,7 +371,35 @@ a.nav-link{
   font-weight: 700;
   text-align: center !important;
 }
-.stepsText{
-  font-size: 18px;
+
+.footerTextSmall{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+@media (max-width:762px) {
+  .footerTextSmall{
+    text-align: center;
+  }
+  .FooterHeaders{
+    font-size: 20px;
+  }
+  .FooterSubHeaders{
+    font-size: 14px;
+  }
+}
+
+.footerButton{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  border: 2px solid #EFCA48;
+  background-color: #EFCA48;
+}
+.footerIcon{
+  font-size: 35px;
+}
+.email{
+  background-color: grey;
   text-align: center;
 }
